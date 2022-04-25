@@ -1,0 +1,139 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    transition: all 0.2s ease-in-out;
+    height: auto;
+    background-color: transparent;
+  
+    text-align: center;
+    line-height: 40px;
+  }
+  .header.active { 
+    padding: 0.5rem 3rem !important;
+    background-color: white;
+  }
+  /* .navbar{
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 27%, rgba(255, 255, 255, 0.5)), linear-gradient(to top, #ffffff 78%, rgba(0, 0, 0, 0) -2%);
+  } */
+  
+  .navbar-brand img {
+    width: 100%;
+  }
+  .navbar-brand img:hover {
+    opacity: 1;
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    color: #ffffff;
+    font-family: "futura-medium";
+    font-size: 14px;
+    letter-spacing: 4.33px;
+    /* opacity: 0.7; */
+    padding-left: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .navbar .navbar-nav .nav-item .nav-link:hover {
+    opacity: 0.82;
+  }
+  
+  .navbar-nav .nav-item .nav-link img{
+    height: 46px;
+    width: 46px;
+    opacity: 1 !important;
+  }
+  .navbar-light .navbar-toggler {
+    border:none;
+    height: 40px;
+  }
+  .navbar-light .navbar-toggler-icon {
+    background-color: black;
+  }
+  .imgBackSlider{
+    width: 100%;
+    object-fit: cover;
+    height: 800px;
+    object-position: 100% 0px;
+  }
+  .imgInnerSlider {
+    margin: auto;
+    display: block;
+  }
+  /* .carousel-control-prev,
+    .carousel-control-next{
+      top: 360px !important;
+      bottom: unset;
+    }  */
+  .carousel-caption {
+    bottom: 32%;
+    top: 30%;
+    padding-top: 3.6rem;
+  }
+  .carousel-caption h1 {
+    padding-top: 1rem;
+    font-size: 80px;
+    font-family: "BankGothicMedium";
+    margin-left: -144px;
+    letter-spacing: 2rem;
+  }
+  .carousel-caption h2 {
+    font-family: "BankGothicMedium";
+    margin-left: -140px;
+    margin-right: -100px;
+    opacity: 0.7;
+    letter-spacing: 0.5rem;
+  }
+  .carousel-indicators{
+    bottom: 35px;
+  }
+  .carousel-indicators .active{
+    background-color: red;
+  }
+  .imgInnerSlider {
+    position: absolute;
+    z-index: -1;
+    width: 70%;
+    height:422px;
+    top: -110px;
+  }
+  .imgInnerSlider2{
+    top: -110px !important;
+  }
+  .btnShopHeader {
+    background-color: #ffffff;
+    border: solid 1.2px #ffffff;
+    width: 250px;
+    font-family: "futura-bold";
+    font-size: 14px;
+    letter-spacing: 8px;
+    margin-top: 1rem;
+    margin-left: -0.2rem;
+  }
+  .btnShopHeader:hover {
+    background-color: #c50a0a;
+    color: #ffffff;
+    border: solid 1.2px #c50a0a;
+  }
+  .newArrival {
+    transition-timing-function: ease;
+    transition: all 0.2s;
+    height: 280px;
+    width: 210px;
+    overflow: hidden;
+  }
+  .newArrival:hover {
+    opacity: 0.9;
+    cursor: pointer;
+  }
+  
+  .newArrival a:hover{
+    text-decoration: none;
+  }
+  .newArrival img{
+    height: 230px;
+    width: 100%;
+    object-fit: cover;
+  }
