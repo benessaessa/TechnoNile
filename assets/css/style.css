@@ -273,4 +273,8 @@ section ul li *::before
     .most-viewed .swiper-button-next{
         left: 70px;
     }
+    .imgSlider{
+        height: 70vh;
+        object-fit: cover;
+    }
 }
