@@ -8,7 +8,7 @@ body{
     border-radius: 25px;
 }
 .customHeader .navbar-nav .nav-item .nav-link{
-    font-size: 15px;
+    font-size: 14px;
     color: white;
     text-transform: uppercase;
 }
@@ -17,6 +17,9 @@ body{
 }
 .customHeader .form-control:focus{
     box-shadow: none;
+}
+.dropHeader .dropdown-item:hover{
+    background-color: #6f7376;
 }
 .cooseBtn{
     background-color: #fe8d00;
