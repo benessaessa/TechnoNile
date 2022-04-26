@@ -22,6 +22,7 @@
 </head>
 
 <body>
+    
     <div class="">
         <nav class="navbar customHeader navbar-expand-lg mt-0 fixed-top px-lg-5">
             <div class="container-fluid">
@@ -808,6 +809,17 @@
     <script>
         AOS.init();
         new WOW().init();
+    </script>
+    <script language=JavaScript>
+        
+        var message = "function disabled";
+        
+        function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
+        
+        if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
+        
+        document.onmousedown = rtclickcheck;
+        
     </script>
     <script src="assets/js/file.js"></script>
 </body>
