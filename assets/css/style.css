@@ -274,7 +274,7 @@ section ul li *::before
         left: 70px;
     }
     .imgSlider{
-        height: 70vh;
+        height: 85vh;
         object-fit: cover;
     }
 }
