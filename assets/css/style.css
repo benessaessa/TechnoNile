@@ -9,6 +9,8 @@ body{
 }
 .customHeader .navbar-nav .nav-item .nav-link{
     font-size: 15px;
+    color: white;
+    text-transform: uppercase;
 }
 .customHeader .navbar-nav .nav-item .nav-link:hover{
     color: white;
@@ -30,26 +32,16 @@ body{
     box-shadow: inset 144px 0 0 0 #000000;
     color: #fff;
 }
-
-/* ======================================= Modal Login ====================== */
-
-.modalLogin .modal-header .btn-close,.modalForget .modal-header .btn-close{
-    margin-right: auto;
-    margin-left: unset;
-    color: white;
+.navbar-collapse.show{
+    padding-top: 1rem;
+    padding-left: 1rem;
 }
-.modalLogin .form-control{
-    height: 40px;
+/* ==================================================================== */
+.imgSlider{
+    height: 100vh;
+    object-fit: cover;
 }
 /* ================================================ First Section ================ */
-.firstSetion{
-    background-image: url(../images/header.png);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    background-attachment: fixed;
-}
 .overlaySection{
     background: hsl(210 4% 10% / .2);
 }

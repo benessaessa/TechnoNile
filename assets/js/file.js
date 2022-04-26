@@ -18,15 +18,15 @@
         }, false)
       })
   })()
-  var swiper2 = new Swiper('.most-viewed .swiper-container', {
+  var swiper2 = new Swiper('.firstSwipper .swiper-container', {
     slidesPerView: 3,
     spaceBetween: 30,
     loopedSlides: 4,
 
     navigation: {
-        nextEl: '.most-viewed .swiper-button-next',
-        prevEl: '.most-viewed .swiper-button-prev',
-        el: '.most-viewed .pagination-container',
+        nextEl: '.firstSwipper .swiper-button-next',
+        prevEl: '.firstSwipper .swiper-button-prev',
+        el: '.firstSwipper .pagination-container',
         clickable: true,
     },
     breakpoints: {
@@ -65,9 +65,9 @@ var swiper1 = new Swiper('.theBest .swiper-container', {
     slidesPerView: 4,
     spaceBetween: 30,
     loopedSlides: 4,
-    // autoplay: {
-    //     delay: 2000
-    // },
+    autoplay: {
+        delay: 3000
+    },
     // navigation: {
     //     nextEl: '.theBest .swiper-button-next',
     //     prevEl: '.theBest .swiper-button-prev',
@@ -85,7 +85,7 @@ var swiper1 = new Swiper('.theBest .swiper-container', {
             loopedSlides: 1,
         },
         400: {
-            slidesPerView: 1,
+            slidesPerView: 2,
             spaceBetween: 24,
             allowSlidePrev: true,
             allowSlideNext: true,
@@ -110,13 +110,13 @@ var swiper = new Swiper('.sale .swiper-container', {
     slidesPerView: 3,
     spaceBetween: 30,
     loopedSlides: 4,
-    pagination: {
-        el: ".sale .swiper-pagination",
-        clickable: true,
-    },
-    // autoplay: {
-    //     delay: 2000
+    // pagination: {
+    //     el: ".sale .swiper-pagination",
+    //     clickable: true,
     // },
+    autoplay: {
+        delay: 3000
+    },
     navigation: {
         nextEl: '.sale .swiper-button-next',
         prevEl: '.sale .swiper-button-prev',
@@ -134,7 +134,7 @@ var swiper = new Swiper('.sale .swiper-container', {
             loopedSlides: 1,
         },
         400: {
-            slidesPerView: 1,
+            slidesPerView: 2,
             spaceBetween: 24,
             allowSlidePrev: true,
             allowSlideNext: true,
@@ -180,3 +180,12 @@ $(document).ready(function(){
       $(".btnView").css("display","none");
   });
 })
+$(window).on("scroll", function() {
+    if($(window).scrollTop() > 20) {
+        $(".customHeader").addClass("bg-dark text-dark pt-2");
+        } 
+        else {
+            //remove the background property so it comes transparent again (defined in your css)
+        $(".customHeader").removeClass("bg-dark pt-4");
+        }
+});
