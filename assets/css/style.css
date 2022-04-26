@@ -32,10 +32,6 @@ body{
     box-shadow: inset 144px 0 0 0 #000000;
     color: #fff;
 }
-.navbar-collapse.show{
-    padding-top: 1rem;
-    padding-left: 1rem;
-}
 /* ==================================================================== */
 .imgSlider{
     height: 100vh;

@@ -4,6 +4,20 @@
 .textRed{
   color: red;
 }
+.bgDark{
+  background-color: #212121;
+}
+.badge{
+  position: absolute;
+  left: 17px;
+  font-size: 8px;
+  border-radius: 20px;
+  top: 2px;
+}
+.badgeRed{
+  background-color: #f30c13;
+  color: white;
+}
 .sectionDark{
   background-color: #131313;
 }

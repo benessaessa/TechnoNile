@@ -182,10 +182,10 @@ $(document).ready(function(){
 })
 $(window).on("scroll", function() {
     if($(window).scrollTop() > 20) {
-        $(".customHeader").addClass("bg-dark text-dark pt-2");
+        $(".customHeader").addClass("bgDark text-dark py-0");
         } 
         else {
             //remove the background property so it comes transparent again (defined in your css)
-        $(".customHeader").removeClass("bg-dark pt-4");
+        $(".customHeader").removeClass("bgDark py-2");
         }
 });

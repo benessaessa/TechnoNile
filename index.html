@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/general.css">
@@ -22,12 +22,12 @@
 
 <body>
     <div class="">
-        <nav class="navbar customHeader navbar-expand-lg pt-4 mt-0 fixed-top px-lg-5">
+        <nav class="navbar customHeader navbar-expand-lg mt-0 fixed-top px-lg-5">
             <div class="container-fluid">
                 <a class="navbar-brand" href="javascript:void(0)">
-                    <img src="assets/images/logo.png" width="160px" alt="">
+                    <img src="assets/images/logoTechno.png" width="200px" alt="">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <button class="navbar-toggler" type="button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLet" aria-controls="offcanvasTop">
                     <i class="fa fa-align-justify text-white"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="mynavbar">
@@ -54,19 +54,22 @@
                                 <i class="fa fa-search fa-lg"></i>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item position-relative">
                             <a class="nav-link" href="javascript:void(0)">
                                 <i class="fa fa-shuffle"></i>
+                                <p class="badge badgeRed mb-0">2</p>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item position-relative">
                             <a class="nav-link" href="javascript:void(0)">
                                 <i class="fa fa-heart"></i>
+                                <p class="badge badgeRed mb-0">2</p>
                             </a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item position-relative">
                             <a class="nav-link" href="javascript:void(0)">
                                 <i class="fa fa-shopping-cart"></i>
+                                <p class="badge badgeRed mb-0">2</p>
                             </a>
                         </li>
                         <li class="nav-item">
@@ -78,6 +81,29 @@
                 </div>
             </div>
         </nav>
+        <div class="offcanvas offcanvas-start bg-dark text-light" tabindex="-1" id="offcanvasLet" aria-labelledby="offcanvasLetLabel">
+            <div class="offcanvas-header">
+                <div class="input-group mt-2 me-4">
+                    <input type="text" class="form-control bg-dark font-size-12 border-top-0 border-end-0 border-start-0" placeholder="Search For Products" aria-label="Search For Products" aria-describedby="basic-addon2">
+                    <span class="input-group-text bg-dark border-0" id="basic-addon2"><i class="fa fa-search text-white"></i></span>
+                </div>
+                <button type="button" class="mt-2" data-bs-dismiss="offcanvas" aria-label="Close">
+                    <i class="fa fa-times"></i>
+                </button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item border-light bg-dark"><a class="text-white text-decoration-none" href="#">Home</a></li>
+                    <li class="list-group-item border-light bg-dark"><a class="text-white text-decoration-none" href="#">Shop</a></li>
+                    <li class="list-group-item border-light bg-dark"><a class="text-white text-decoration-none" href="#">Categories</a></li>
+                    <li class="list-group-item border-light bg-dark"><a class="text-white text-decoration-none" href="#">About Us</a></li>
+                    <li class="list-group-item border-light bg-dark"><a class="text-white text-decoration-none" href="#">Contact Us</a></li>
+                    <li class="list-group-item border-light bg-dark"><a class="text-white text-decoration-none" href="#"><i class="fa fa-heart pe-2"></i> Wishlist</a></li>
+                    <li class="list-group-item border-light bg-dark"><a class="text-white text-decoration-none" href="#"><i class="fa fa-shuffle pe-2"></i> Compare</a></li>
+                    <li class="list-group-item border-light bg-dark"><a class="text-white text-decoration-none" href="#"><i class="fa fa-user pe-2"></i> Login/Register</a></li>
+                </ul>
+            </div>
+        </div>
         <!-- Carousel -->
         <div id="demo" class="carousel slide" data-bs-ride="carousel">
     
@@ -722,13 +748,13 @@
         <div class="container overflow-hidden">
             <div class="row">
                 <div class="col-lg-4 col-md-4 pb-3" data-aos="zoom-out-right" data-aos-duration="1500">
-                    <img src="assets/images/logo-web.webp" class="img-fluid">
+                    <img src="assets/images/logoTechno.png" class="img-fluid">
                     <p class="pt-5 mb-2"><i class="fa fa-location-arrow me-2"></i> Address: Egypt </p>
                     <p class="mb-2">Giza - 6th of October</p>
                     <p class="mb-2">Fifth District - 64 Central Axis</p>
-                    <p class="mb-2"><a href="tel:+201050576606"><i class="fa fa-mobile me-1"></i> Phone : +201050576606 </a></p>
+                    <p class="mb-2"><a href="tel:+201114205243"><i class="fa fa-mobile me-1"></i> Phone : +201114205243 </a></p>
                     <p class="mb-2"><a href="fax:0238338445"><i class="fa fa-envelope-o me-2"></i>Fax 02-38338445</a></p>
-                    <p><a href="mailto:info@computecheg.com"><i class="fas fa-envelope me-2"></i>info@computecheg.com</a></p>
+                    <p><a href="mailto:moh.essa2020@gmail.com"><i class="fas fa-envelope me-2"></i>moh.essa2020@gmail.com</a></p>
                 </div>
                 <div class="col-lg-4 col-md-4" data-aos="zoom-out" data-aos-duration="1500">
                     <h6 class="fw-bold text-white pb-4">IMPORTANT LINKS</h6>
@@ -748,9 +774,8 @@
             <div class="container">
                 <div class="d-md-flex justify-content-between pt-2">
                     <p class="footText">
-                        2021 ©Computecheg All rights reserved . Developed by <a class="textRed"
-                            href="https://www.commaeg.com/" target="_blank" rel="nofollow noopener">Comma Creative
-                            Solutions</a> 
+                        2022 ©Computecheg All rights reserved . Developed by <a class="textRed"
+                            href="https://www.linkedin.com/in/mohamedessa2020/" target="_blank" rel="nofollow noopener">Mohamed Essa</a> 
                     </p>
                     <p class="pb-2 mb-0">
                         <img src="./assets/images/payments.png" alt="payments">
@@ -759,7 +784,7 @@
             </div>
         </div>
     </footer>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/js/wow.min.js"></script>
