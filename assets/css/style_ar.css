@@ -1,0 +1,19 @@
+body{
+    direction: rtl;
+}
+.customHeader .ms-auto{
+    margin-right: auto !important;
+}
+.textDefult{
+    right: 1rem;
+}
+.absoluteText{
+    right: 5px;
+    left: unset;
+}
+.imgLab{
+    transform: rotatey(180deg) !important;
+}
+.pe-3 {
+    padding-left: 1rem!important;
+}

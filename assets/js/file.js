@@ -165,16 +165,13 @@ $(document).ready(function(){
   $(".sectionDisplay").mouseover(function(){
     $(".sectionDisplay").stop().animate({
         top: '350px',
-        // height: '+=150px',
         width: '+=150px'
       });
     $(".btnView").css("display","block");
-    // $(".btnView").animate("slow");
   });
   $(".sectionDisplay").mouseout(function(){
     $(".sectionDisplay").stop().animate({
         top: '-350px',
-        // height: '-=150px',
         width: '-=150px'
       });
       $(".btnView").css("display","none");
