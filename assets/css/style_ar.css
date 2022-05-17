@@ -9,7 +9,7 @@ body{
 .textDefult{
     right: 1rem;
 }
-.absoluteText{
+.absoluteText{ 
     right: 5px;
     left: unset;
 }
